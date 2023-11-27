@@ -1,5 +1,5 @@
 import React, {FormEvent} from 'react';
-import { loginUser } from './../../../store/auth/actionCreators'
+import { loginUser } from '../../../store/auth/actionCreators'
 import {useAppDispatch} from "../../../store";
 
 const Login = () => {
